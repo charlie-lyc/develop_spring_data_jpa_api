@@ -9,7 +9,9 @@ import java.util.Objects;
  * 1. First
  *  - JPA: table, entity, id, generatedValue, column
  *  - Lombok: data(including getters, setters, equals, hashCode, toString), noArgsConstructor, AllArgsConstructor
+ *  - Hibernate: dynamicUpdate
  */
+@DynamicUpdate
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

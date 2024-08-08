@@ -1,6 +1,7 @@
 package com.ems.rehearse2.domain;
 
 import lombok.*;
+import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.*;
 import java.util.Objects;
